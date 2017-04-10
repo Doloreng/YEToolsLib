@@ -1,6 +1,6 @@
 {
   "name": "YEToolsLib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of YEToolsLib.",
   "description": "YoueData IOS Developer base lib",
   "homepage": "https://github.com/WriteforBlack/YEToolsLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WriteforBlack/YEToolsLib.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
