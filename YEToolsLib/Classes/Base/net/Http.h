@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+PropertyToDict.h"     //对象转换为字典的扩展类
 #import <MJExtension/MJExtension.h>                 //字典和对象互相转换的第三方库
 typedef void(^RESULT)(NSDictionary*result);
 typedef void(^ERROR_H)(NSError *errorH);
