@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YEToolsLib_Example' do
+  pod 'YEToolsLib', :path => '../'
+
+  target 'YEToolsLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

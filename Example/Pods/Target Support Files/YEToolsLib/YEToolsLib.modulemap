@@ -1,0 +1,6 @@
+framework module YEToolsLib {
+  umbrella header "YEToolsLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

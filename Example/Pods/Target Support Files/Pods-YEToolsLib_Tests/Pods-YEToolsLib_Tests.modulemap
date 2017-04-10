@@ -1,0 +1,6 @@
+framework module Pods_YEToolsLib_Tests {
+  umbrella header "Pods-YEToolsLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
