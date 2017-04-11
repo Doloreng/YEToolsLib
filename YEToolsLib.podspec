@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YEToolsLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of YEToolsLib.'
 
 # This description is used to generate tags and improve search results.
@@ -46,6 +46,10 @@ Pod::Spec.new do |s|
   s.subspec 'Vendor' do |ss|
     ss.source_files = 'YEToolsLib/Classes/Vendor/**/*'
     ss.public_header_files = 'YEToolsLib/Classes/Vendor/**/*.h'
+  end
+  s.subspec 'UIKit+YETools' do |ss|
+    ss.source_files = 'YEToolsLib/Classes/UIKit+YETools/**/*'
+    ss.public_header_files = 'YEToolsLib/Classes/UIKit+YETools/**/*.h'
   end
 
   s.frameworks = 'Foundation', 'StoreKit','UIKit'

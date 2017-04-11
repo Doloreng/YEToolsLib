@@ -1,6 +1,6 @@
 {
   "name": "YEToolsLib",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of YEToolsLib.",
   "description": "YoueData IOS Developer base lib",
   "homepage": "https://github.com/WriteforBlack/YEToolsLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WriteforBlack/YEToolsLib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -60,6 +60,11 @@
       "name": "Vendor",
       "source_files": "YEToolsLib/Classes/Vendor/**/*",
       "public_header_files": "YEToolsLib/Classes/Vendor/**/*.h"
+    },
+    {
+      "name": "UIKit+YETools",
+      "source_files": "YEToolsLib/Classes/UIKit+YETools/**/*",
+      "public_header_files": "YEToolsLib/Classes/UIKit+YETools/**/*.h"
     }
   ]
 }
